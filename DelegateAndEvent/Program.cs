@@ -4,9 +4,13 @@ namespace DelegateAndEvent
 {
     class Program
     {
+
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            MulticastDelegate.run();
+
+            Console.ReadLine();
         }
     }
 }
